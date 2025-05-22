@@ -15,13 +15,6 @@
         },
 
         {
-            "id": "skills",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/skills.json",
-            "faIcon": "fa-solid fa-tools"
-        },
-
-        {
             "id": "experience",
             "categoryId": "background",
             "jsonPath": "/data/sections/experience.json",
@@ -29,24 +22,10 @@
         },
 
         {
-            "id": "portfolio",
+            "id": "ideas",
             "categoryId": "showcase",
             "jsonPath": "/data/sections/portfolio.json",
             "faIcon": "fa-solid fa-folder-open"
-        },
-
-        {
-            "id": "achievements",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
-        },
-
-        {
-            "id": "updates",
-            "categoryId": "more",
-            "jsonPath": "/data/sections/updates.json",
-            "faIcon": "fa-solid fa-rss"
         },
 
         {
