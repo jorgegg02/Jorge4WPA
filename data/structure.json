@@ -64,7 +64,7 @@
             "faIcon": "fa-solid fa-images",
             "locales": {
                 "en": {"title": "Ideas"},
-                "es": {"title": "Ideas"},
+                "es": {"title": "Ideas"}
             }
         },
 
@@ -73,7 +73,7 @@
             "faIcon": "fa-solid fa-plus",
             "locales": {
                 "en": {"title": "Contact"},
-                "es": {"title": "Contacto"},
+                "es": {"title": "Contacto"}
             }
         }
     ]
