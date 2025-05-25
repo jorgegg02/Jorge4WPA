@@ -1,72 +1,66 @@
 {
-    "version": "1.0.0",
-    "animatedCursorEnabled": true,
-    "fullScreenButtonEnabled": true,
+  "version": "1.0.0",
+  "animatedCursorEnabled": true,
+  "fullScreenButtonEnabled": true,
 
-    "preloader": {
-        "enabled": false,
-        "title": "Candidatura <b>WPA</b>",
-        "subtitle": "por Jorge Gómez"
-    },
+  "preloader": {
+    "enabled": false,
+    "title": "Candidatura <b>WPA</b>",
+    "subtitle": "por Jorge Gómez"
+  },
 
-    "profile": {
-        "name": "Jorge Gómez",
-        "stylizedName": "<strong>**Jorge** Gómez</strong>",
-        "logoUrl": "images/pictures/manita.png",
-        "profilePictureUrl": "images/pictures/ordenador.png",
+  "profile": {
+    "name": "Jorge Gómez",
+    "stylizedName": "<strong>**Jorge** Gómez</strong>",
+    "logoUrl": "images/pictures/manita.png",
+    "profilePictureUrl": "images/pictures/ordenador.png",
 
-        "locales": {
-            "en": {"role": "Web Developer"},
-            "es": {"role": "Candidato a WPA"},
-            "fr": {"role": "Développeur Web"},
-            "ko": {"role": "웹 개발자"}
-        }
-    },
-
-    "status": {
-        "visible": true,
-        "available": true,
-
-        "locales": {
-            "en": {"message": "Available for freelance!"},
-            "es": {"message": "¡Disponible para freelance!"},
-            "fr": {"message": "Disponible pour freelance !"},
-            "ko": {"message": "프리랜스 가능합니다!"}
-        }
-    },
-
-    "supportedThemes": [
-        {
-            "id": "dark",
-            "default": true,
-            "icon": "fa-solid fa-moon"
-        },
-
-        {
-            "id": "light",
-            "default": false,
-            "icon": "fa-solid fa-sun"
-        }
-    ],
-
-    "supportedLanguages": [
-        {
-            "name": "English",
-            "id": "en",
-            "flagUrl": "images/flags/en.png",
-            "default": true
-        },
-
-        {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
-        }
-    ],
-
-    "emailjs": {
-        "publicKey": "tzObcsmOwHvPy6Rhp",
-        "serviceId": "service_4h8g7vb",
-        "templateId": "template_seyjkzn"
+    "locales": {
+      "en": { "role": "WPA Candidate" },
+      "es": { "role": "Candidato a WPA" }
     }
+  },
+
+  "status": {
+    "visible": false,
+    "available": false,
+
+    "locales": {
+      "en": { "message": "Available !" },
+      "es": { "message": "¡Disponible!" }
+    }
+  },
+
+  "supportedThemes": [
+    {
+      "id": "dark",
+      "default": true,
+      "icon": "fa-solid fa-moon"
+    },
+    {
+      "id": "light",
+      "default": false,
+      "icon": "fa-solid fa-sun"
+    }
+  ],
+
+  "supportedLanguages": [
+    {
+      "name": "English",
+      "id": "en",
+      "flagUrl": "images/flags/en.png",
+      "default": true
+    },
+    {
+      "name": "Español",
+      "id": "es",
+      "flagUrl": "images/flags/es.png"
+    }
+  ],
+
+  "emailjs": {
+    "publicKey": "tzObcsmOwHvPy6Rhp",
+    "serviceId": "service_4h8g7vb",
+    "templateId": "template_seyjkzn"
+  }
 }

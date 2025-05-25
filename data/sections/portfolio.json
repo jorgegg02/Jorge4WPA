@@ -7,21 +7,9 @@
         },
 
         "es": {
-            "title": "Portafolio",
+            "title": "Libro de ideas",
             "title_long_prefix": "Explora",
-            "title_long": "Mi **Portafolio**"
-        },
-
-        "fr": {
-            "title": "Portfolio",
-            "title_long_prefix": "Découvrez",
-            "title_long": "Mon **Portfolio**"
-        },
-
-        "ko": {
-            "title": "포트폴리오",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**포트폴리오**입니다"
+            "title_long": "Libro de **Ideas**"
         }
     },
 
@@ -37,29 +25,23 @@
                     "id": "apps",
                     "locales": {
                         "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
+                        "es": {"singular": "Formacion", "plural": "Apps"}
                     }
                 },
                 {
                     "id": "websites",
                     "locales": {
                         "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
-                        "ko": {"singular": "웹사이트", "plural": "웹"}
+                        "es": {"singular": "Sitio web", "plural": "Web"}
                     }
                 },
                 {
                     "id": "utilities",
                     "locales": {
                         "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
-                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
-                    }
+                        "es": {"singular": "Comunidad", "plural": "Utilidades"}
                 }
+            }
             ],
 
             "items": [

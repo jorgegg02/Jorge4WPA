@@ -1,291 +1,192 @@
 {
-    "locales": {
-        "en": {
-            "title": "Welcome!",
-            "title_menu": "About me",
-            "title_long_prefix": "Hello...",
-            "title_long": "I'm **Mark Choi!**"
-        },
-
-        "es": {
-            "title": "¡Saludos!",
-            "title_menu": "Sobre mí",
-            "title_long_prefix": "Hola...",
-            "title_long": "Soy **Jorge Gómez!**"
-        },
-
-        "fr": {
-            "title": "Salut !",
-            "title_menu": "À propos",
-            "title_long_prefix": "Salut...",
-            "title_long": "Je suis **Mark Choi!**"
-        },
-
-        "ko": {
-            "title": "환영합니다!",
-            "title_menu": "소개",
-            "title_long_prefix": "안녕하세요...",
-            "title_long": "저는 **Mark Choi** 입니다!"
-        }
+  "locales": {
+    "en": {
+      "title": "Greetings!",
+      "title_menu": "About me",
+      "title_long_prefix": "Hello...",
+      "title_long": "I'm **Jorge Gómez!**"
     },
-
-    "articles": [
+    "es": {
+      "title": "¡Saludos!",
+      "title_menu": "Sobre mí",
+      "title_long_prefix": "Hola...",
+      "title_long": "Soy **Jorge Gómez!**"
+    }
+  },
+  "articles": [
+    {
+      "id": "contact_list",
+      "component": "ArticleGrid",
+      "config": {
+        "ignorePaddingTop": true,
+        "format": "inline"
+      },
+      "locales": {
+        "en": {},
+        "es": {}
+      },
+      "items": [
         {
-            "id": "contact_list",
-            "component": "ArticleGrid",
-            "config": {
-                "ignorePaddingTop": true,
-                "format": "inline"
-            },
-            "locales": {
-                "en": {},
-                "es": {},
-                "fr": {},
-                "ko": {}
-            },
-
-            "items": [
-                {
-                    "value": "Cáceres – Extremadrua",
-                    "links": [
-                        {"href": null}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-city",
-                        "faColors": {"bg": null, "fill": null}
-                    }
-                },
-                {
-                    "value": "jorge.gomez@esnuex.org",
-                    "links": [
-                        {"href": "mailto:jorge.gomez@esnuex.org"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-envelope",
-                        "faColors": {"bg": null, "fill": null}
-                    }
-                },
-                {
-                    "value": "Jorge Gómez Gibello",
-                    "links": [
-                        {"href": "https://es.linkedin.com/in/jorge-g%C3%B3mez-gibello"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-github",
-                        "faColors": {"bg": null, "fill": null}
-                    }
-                }
-            ]
+          "value": "Cáceres – Extremadura",
+          "links": [
+            { "href": null }
+          ],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-city",
+            "faColors": { "bg": null, "fill": null }
+          }
         },
-
         {
-            "id": "short_description",
-            "component": "ArticleInfoBlock",
-            "config": {},
-            "locales": {
-                "en": {"title": "**A little bit** about me..."},
-                "es": {"title": "**Un poco** sobre mí..."},
-                "fr": {"title": "**Un peu** à propos de moi..."},
-                "ko": {"title": "저에 **대해 조금**..."}
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/cute.png",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"text": "<p>I’m a PHP developer with <b>over a decade</b> of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"},
-                        "es": {"text": "<p>Soy un ingeniero informático. Estudié el grado de Ingeniería Informática en Ingeniería del Software en la Escuela Politécnica de Cáceres, Universidad de Extremadura. Entré en ESN UEx en septiembre de 2023 mientras hacía 4to de carrera, después de haber pasado un curso de Erasmus en Bolonia, Italia. Empecé como Webmaster en ese octubre y sigo siéndolo actualmente.</p>"},
-                        "fr": {"text": "<p>Je suis développeur PHP avec <b>plus d'une décennie</b> d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
-                        "ko": {"text": "<p>저는 백엔드 개발을 전문으로 하고, 프론트엔드 작업도 일부 수행해온 <b>10년 이상의</b> 경력을 가진 PHP 개발자입니다. 또한 C++, C#, Go, Python 스택을 사용한 프로덕션 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"}
-                    }
-                }
-            ]
+          "value": "jorge.gomez@esnuex.org",
+          "links": [
+            { "href": "mailto:jorge.gomez@esnuex.org" }
+          ],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-envelope",
+            "faColors": { "bg": null, "fill": null }
+          }
         },
-
-
         {
-            "id": "interests",
-            "component": "ArticleGrid",
-            "config": {
-                "format": "grid"
-            },
-            "locales": {
-                "en": {"title": "Personal **interests**"},
-                "es": { "title": "Intereses **personales**" },
-                "fr": { "title": "Intérêts **personnels** " },
-                "ko": { "title": "개인 **관심사**" }
-            },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Playing guitar",
-                            "info": "Exploring different genres and improving my skills."
-                        },
-                        "es": {
-                            "title": "Música",
-                            "info": "Me encanta la música, de hecho durante muchos años he tocado el cello y el piano."
-                        },
-                        "fr": {
-                            "title": "Jouer de la guitare",
-                            "info": "Explorer différents genres et améliorer mes compétences."
-                        },
-                        "ko": {
-                            "title": "기타 연주",
-                            "info": "다양한 장르를 탐험하고 기술을 향상시키기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-video",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "AI video editing",
-                            "info": "Learning to use AI tools to enhance my videos."
-                        },
-                        "es": {
-                            "title": "Tecnología",
-                            "info": " "
-                        },
-                        "fr": {
-                            "title": "Montage vidéo avec IA",
-                            "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
-                        },
-                        "ko": {
-                            "title": "AI 영상 편집",
-                            "info": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-paint-brush",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Illustration",
-                            "info": "Practicing digital art and exploring new styles."
-                        },
-                        "es": {
-                            "title": "Movilidad",
-                            "info": " "
-                        },
-                        "fr": {
-                            "title": "Illustration",
-                            "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
-                        },
-                        "ko": {
-                            "title": "일러스트레이션",
-                            "info": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-chart-line",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Investing",
-                            "info": "Learning the basics of stocks and personal finance."
-                        },
-                        "es": {
-                            "title": "Economía",
-                            "info": " "
-                        },
-                        "fr": {
-                            "title": "Investir",
-                            "info": "Apprendre les bases des actions et des finances personnelles."
-                        },
-                        "ko": {
-                            "title": "투자",
-                            "info": "주식과 개인 재정의 기초 배우기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-pencil-alt",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "UX design",
-                            "info": "Studying user experience principles."
-                        },
-                        "es": {
-                            "title": "Geopolítica",
-                            "info": ""
-                        },
-                        "fr": {
-                            "title": "Conception UX",
-                            "info": "Étudier les principes de l'expérience utilisateur."
-                        },
-                        "ko": {
-                            "title": "UX 디자인",
-                            "info": "사용자 경험 원칙을 공부하기."
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-camera-retro",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Photo editing",
-                            "info": "Enhancing photos through creative editing techniques."
-                        },
-                        "es": {
-                            "title": "Arquitectura",
-                            "info": ""
-                        },
-                        "fr": {
-                            "title": "Retouche photo",
-                            "info": "Améliorer des photos avec des techniques de montage créatives."
-                        },
-                        "ko": {
-                            "title": "사진 편집",
-                            "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
-                        }
-                    }
-                }
-            ]
+          "value": "Jorge Gómez Gibello",
+          "links": [
+            { "href": "https://es.linkedin.com/in/jorge-g%C3%B3mez-gibello" }
+          ],
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-linkedin",
+            "faColors": { "bg": null, "fill": null }
+          }
         }
-    ]
+      ]
+    },
+    {
+      "id": "short_description",
+      "component": "ArticleInfoBlock",
+      "config": {},
+      "locales": {
+        "en": {
+          "title": "**A little bit** about me..."
+        },
+        "es": {
+          "title": "**Un poco** sobre mí..."
+        }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/cute.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "text": "<p>I'm a computer engineer. I studied the Bachelor's Degree in Computer Engineering in Software Engineering at the School of Engineering of Cáceres, University of Extremadura. I joined ESN UEx in September 2023 while I was in my fourth year, after spending an Erasmus year in Bologna, Italy. I started as Webmaster that October and I still hold the position today.</p>"
+            },
+            "es": {
+              "text": "<p>Soy un ingeniero informático. Estudié el grado de Ingeniería Informática en Ingeniería del Software en la Escuela Politécnica de Cáceres, Universidad de Extremadura. Entré en ESN UEx en septiembre de 2023 mientras hacía 4to de carrera, después de haber pasado un curso de Erasmus en Bolonia, Italia. Empecé como Webmaster en ese octubre y sigo siéndolo actualmente.</p>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "interests",
+      "component": "ArticleGrid",
+      "config": {
+        "format": "grid"
+      },
+      "locales": {
+        "en": { "title": "Personal **interests**" },
+        "es": { "title": "Intereses **personales**" }
+      },
+      "items": [
+        {
+          "icon": { "img": null, "fa": "fa-solid fa-headphones-simple", "faColors": null },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Music",
+              "info": " "
+            },
+            "es": {
+              "title": "Música",
+              "info": " "
+            }
+          }
+        },
+        {
+          "icon": { "img": null, "fa": "fa-solid fa-microchip", "faColors": null },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Technology",
+              "info": " "
+            },
+            "es": {
+              "title": "Tecnología",
+              "info": " "
+            }
+          }
+        },
+        {
+          "icon": { "img": null, "fa": "fa-solid fa-atom", "faColors": null },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Science",
+              "info": " "
+            },
+            "es": {
+              "title": "Ciencia",
+              "info": " "
+            }
+          }
+        },
+        {
+          "icon": { "img": null, "fa": "fa-solid fa-chart-line", "faColors": null },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Economics",
+              "info": " "
+            },
+            "es": {
+              "title": "Economía",
+              "info": " "
+            }
+          }
+        },
+        {
+          "icon": { "img": null, "fa": "fa-solid fa-book-atlas", "faColors": null },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Geopolitics",
+              "info": ""
+            },
+            "es": {
+              "title": "Geopolítica",
+              "info": ""
+            }
+          }
+        },
+        {
+          "icon": { "img": null, "fa": "fa-solid fa-city", "faColors": null },
+          "value": null,
+          "locales": {
+            "en": {
+              "title": "Architecture",
+              "info": ""
+            },
+            "es": {
+              "title": "Arquitectura",
+              "info": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
