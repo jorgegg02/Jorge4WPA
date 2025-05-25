@@ -1,254 +1,227 @@
 {
-    "locales": {
-        "en": {
-            "title": "Portfolio",
-            "title_long_prefix": "Take a look at",
-            "title_long": "My **Portfolio**"
-        },
-
-        "es": {
-            "title": "Libro de ideas",
-            "title_long_prefix": "Os presento mi",
-            "title_long": "Libro de **Ideas**"
-        }
+  "locales": {
+    "en": {
+      "title": "Idea Book",
+      "title_long_prefix": "Let me introduce my",
+      "title_long": "My **Idea Book**"
     },
-
-    "articles": [
+    "es": {
+      "title": "Libro de ideas",
+      "title_long_prefix": "Os presento mi",
+      "title_long": "Libro de **Ideas**"
+    }
+  },
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+      "categories": [
         {
-            "id": "portfolio",
-            "component": "ArticlePortfolio",
-            "config": {},
-            "locales": {},
-
-            "categories": [
-                {
-                    "id": "Training",
-                    "locales": {
-                        "en": {"singular": "Training", "plural": "Training"},
-                        "es": {"singular": "Formacion", "plural": "Training"}
-                    }
-                },
-                {
-                    "id": "websites",
-                    "locales": {
-                        "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Web", "plural": "Web"}
-                    }
-                },
-                {
-                    "id": "comunity",
-                    "locales": {
-                        "en": {"singular": "Comunity", "plural": "comunity"},
-                        "es": {"singular": "Comunidad", "plural": "Utilidades"}
-                }
-            }
-            ],
-
-            "items": [
-                {
-                    "categoryId": "comunity",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-people-group",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                       
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling."
-                        },
-                        "es": {
-                            "title": "Aumentar número de MyC ",
-                            "text": "Quiero aumentar el número de MyC de forma que haya como mínimo **1 cada 2 meses**. Dentro de estos a su vez, quiero introducir nuevos formatos que dinamicen la comunidad como que Webmasters sean protagonistas, donde presenten proyectos suyos propios y se compartan buenas prácticas o hacer MyC conjuntos con otras comunidades con sinergias potenciales."
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "Training",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-graduation-cap",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>."
-                        },
-                        "es": {
-                            "title": "Formación: EST",
-                            "text": "Para muchas personas del EST las herramientas que con las que se trabajan son conocidas solo de oídas hasta que se llega al equipo. Es por eso que quiero apostar fuertemente por formación interna del equipo ya sea por nuestra cuenta o incluso buscando formación externa. Con esto, no solo se conseguiría integrantes más capaces, sino que holísticamente el equipo sería más eficaz en su conjunto.  "                        }
-                    }
-                },
-
-                {
-                    "categoryId": "Training",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-brain",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features."
-                        },
-                        "es": {
-                            "title": "Formación: WebMasters",
-                            "text": "La comunidad de WebMasters está abierta a todo el mundo, no hace falta ser un experto. Muchas veces creo que la imagen de este cargo ahuyenta a personas que podrían desempeñarlo perfectamente. Por ese motivo me gustaría dar formaciones abiertas sobre diferentes tareas que se llevan a cabo como WebMaster. Esto es aún más importante al tomar en cuenta el cambio de plantilla a Satellite 5, donde algunos procesos sobre la modificación de la web serán distintos."
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/satellite5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    
-                    ],
-
-                    "media": {
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights."                        },
-                        "es": {
-                            "title": "Web ESN España: Satellite 5",
-                            "text": "Como pieza fundamental del trabajo de WPA tengo intención de mantener comletamente actualizada la web de la federación y continuar dándole forma y mejorándola en la nueva versión de la plantilla Satellite 5."                        }
-                    }
-                },
-
-                {
-                    "categoryId": "Training",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-school-flag",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements."                        },
-                        "es": {
-                            "title": "Formación: Personas voluntarias de la federación",
-                            "text": "Al igual que desde el EdIS se forma en espacios seguros o desde el DC se dan formaciones sobre campañas abiertas a todo el mundo, creo que desde el EST podríamos formar a toda la federación en campos habitualmente ligados a nuestro ámbito como herramientas digitales o IA. Me gustaría además que ambas caras de la moneda fueran abiertas, es decir, desde el EST ofreceríamos nuestro altavoz y ayuda, si fuera necesaria, a cualquier persona que quisiera impartir estos tipos de formaciones, ya que soy consciente que para saber usar estas herramientas no hace falta ser webmaster ni integrante del EST."                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-globe",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform."
-                        },
-                        "es": {
-                            "title": "Satellite 5 para las secciones",
-                            "text": "Otro eje del trabajo web sería empezar con la implantación de la plantilla de Satellite 5 para las secciones que así lo quieran. Desde el EST brindaremos todo el apoyo que las secciones necesiten en esta transición"
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-mobile",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>."
-                        },
-                        "es": {
-                            "title": "Webs ESN España: extras",
-                            "text": "Otro punto importante será el de las demás webs a nivel nacional, como la del secretariado, Ibiza o la wiki. Sé que no serían mi jurisdicción pero quiero matizar que tanto yo como el EST quedaríamos a completa disposición de Junta Nacional, el secretariado y demás equipos para trabajar en ellas."
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "comunity",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-puzzle-piece",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools."
-                        },
-                        "es": {
-                            "title": "Teambuilding",
-                            "text": "Me gustaría aumentar el sentido de pertenencia y de grupo de la comunidad de WebMasters. Para ello, creo que sería reconveniente reestructurar el grupo de Whatsapp actual e incluso considerar según el parecer de los Webmasters cómo facilitar la comunicación. También creo que generar espacios lúdicos podría facilitar esto en gran medida."}
-                    }
-                }
-            ]
+          "id": "Training",
+          "locales": {
+            "en": { "singular": "Training", "plural": "Trainings" },
+            "es": { "singular": "Formación", "plural": "Formaciones" }
+          }
+        },
+        {
+          "id": "websites",
+          "locales": {
+            "en": { "singular": "Website", "plural": "Websites" },
+            "es": { "singular": "Web", "plural": "Webs" }
+          }
+        },
+        {
+          "id": "comunity",
+          "locales": {
+            "en": { "singular": "Community", "plural": "Communities" },
+            "es": { "singular": "Comunidad", "plural": "Comunidades" }
+          }
         }
-    ]
+      ],
+      "items": [
+        {
+          "categoryId": "comunity",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-people-group",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "Boosting MyC Engagement",
+              "text": "I want to increase the number of MyC events to at least **one every two months**. Additionally, I’d like to introduce new formats to energize the community—such as giving Webmasters the spotlight to showcase their own projects, or organizing joint sessions with other communities with potential synergies."
+            },
+            "es": {
+              "title": "Aumentar número de MyC",
+              "text": "Quiero aumentar el número de MyC a un mínimo de **uno cada dos meses**. Además, quiero introducir nuevos formatos que dinamicen la comunidad: por ejemplo, encuentros donde los Webmasters presenten sus propios proyectos o eventos conjuntos con otras comunidades con sinergias potenciales."
+            }
+          }
+        },
+        {
+          "categoryId": "Training",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-graduation-cap",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "Training: EST",
+              "text": "Many EST members are only vaguely familiar with the tools we use until they join the team. That’s why I strongly believe in promoting **internal training**, either developed by us or through external providers. This would not only make our team members more capable, but improve the overall team efficiency holistically."
+            },
+            "es": {
+              "title": "Formación: EST",
+              "text": "Para muchas personas del EST, las herramientas con las que se trabaja son conocidas solo de oídas hasta que se llega al equipo. Por eso, quiero **apostar firmemente por la formación interna del equipo**, ya sea por nuestra cuenta o buscando formación externa. Así, no solo se conseguirían integrantes más capaces, sino que el equipo sería más eficaz en su conjunto."
+            }
+          }
+        },
+        {
+          "categoryId": "Training",
+          "icon": {
+            "img": "",
+            "fa": "fa-solid fa-brain",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "Training: WebMasters",
+              "text": "The **WebMasters community is open to everyone**—you don’t need to be an expert. Sometimes, the title itself may intimidate potential contributors. That’s why I want to offer open training sessions on tasks typically handled by WebMasters, especially now with the transition to Satellite 5, which brings changes in how websites are modified."
+            },
+            "es": {
+              "title": "Formación: WebMasters",
+              "text": "La **comunidad de WebMasters está abierta a todo el mundo**, no hace falta ser un experto. Muchas veces creo que la imagen de este cargo ahuyenta a personas que podrían desempeñarlo perfectamente. Por ese motivo, me gustaría dar formaciones abiertas sobre tareas que se llevan a cabo como WebMaster. Esto es aún más importante con el cambio a la plantilla Satellite 5, donde algunos procesos de modificación web serán distintos."
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/satellite5.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "ESN Spain Website: Satellite 5",
+              "text": "As a key part of the WPA role, I intend to keep the federation’s website fully updated and continue improving it in the new Satellite 5 template. Coordination with CM and DC is essential to maintain visual consistency across networks, and with PM to ensure partners are up to date."
+            },
+            "es": {
+              "title": "Web ESN España: Satellite 5",
+              "text": "Como parte fundamental del trabajo del WPA, tengo intención de mantener completamente actualizada la web de la federación y seguir mejorándola con la nueva plantilla Satellite 5. Será clave la coordinación con CM y DC para mantener una imagen alineada y con PM para mantener los partners actualizados."
+            }
+          }
+        },
+        {
+          "categoryId": "Training",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-school-flag",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "Training: Federation Volunteers",
+              "text": "Just like EdIS provides safe space training and DC offers open campaign workshops, I believe EST could train the entire federation in areas typically associated with us—like digital tools and AI. I’d also like this to be two-way: the EST should support and amplify any member interested in leading these trainings. You don’t need to be a Webmaster or part of EST to be knowledgeable."
+            },
+            "es": {
+              "title": "Formación: Personas voluntarias de la federación",
+              "text": "Así como desde el EdIS se forman espacios seguros y desde el DC se dan formaciones abiertas, creo que desde el EST podríamos formar a toda la federación en temas como herramientas digitales o IA. Me gustaría que esta formación fuera bidireccional: desde el EST ofreceríamos ayuda y altavoz a cualquier persona que quisiera impartir este tipo de formaciones. No es necesario ser WebMaster ni del EST para dominar estas herramientas."
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-globe",
+            "faColors": { "bg": "#111", "fill": "#EEE" }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "Satellite 5 for Local Sections",
+              "text": "Another web-related focus will be supporting sections that wish to adopt the Satellite 5 template. The EST will provide all necessary assistance for this transition."
+            },
+            "es": {
+              "title": "Satellite 5 para las secciones",
+              "text": "Otro eje del trabajo web será la implantación de la plantilla Satellite 5 en las secciones que así lo deseen. Desde el EST ofreceremos todo el apoyo necesario en esta transición."
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-mobile",
+            "faColors": { "bg": "#111", "fill": "#EEE" }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "Other ESN Spain Websites",
+              "text": "Another key area involves other national-level websites, such as those for the Secretariat, Ibiza, or the Wiki. While they may not fall directly under my jurisdiction, I want to make clear that both I and the EST are fully available to the National Board, Secretariat, and other teams to collaborate on them."
+            },
+            "es": {
+              "title": "Webs ESN España: extras",
+              "text": "Otro punto importante será el de las demás webs a nivel nacional, como la del secretariado, Ibiza o la wiki. Sé que no están bajo mi responsabilidad directa, pero tanto yo como el EST estaremos completamente disponibles para colaborar con la Junta Nacional, el secretariado y otros equipos para trabajar en ellas."
+            }
+          }
+        },
+        {
+          "categoryId": "comunity",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-puzzle-piece",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "Teambuilding",
+              "text": "I’d like to strengthen the sense of belonging and group spirit within the WebMasters community. To do this, I think it’s advisable to restructure the current WhatsApp group and explore better communication channels, depending on Webmasters’ preferences. I also think that creating recreational spaces could help a lot in this regard, such as a shared Instagram account or enabling online gaming spaces.."
+            },
+            "es": {
+              "title": "Teambuilding",
+              "text": "Me gustaría aumentar el sentido de pertenencia y de grupo de la comunidad de WebMasters. Para ello, creo que sería conveniente reestructurar el grupo de WhatsApp actual e incluso considerar, según la opinión de los WebMasters, cómo facilitar la comunicación. También creo que generar espacios lúdicos podría ayudar mucho en este sentido, como una cuenta de Instagram compartida o habilitación de espacios de juego online."
+            }
+          }
+        },
+        {
+          "categoryId": "Training",
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-file-lines",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [],
+          "media": {},
+          "locales": {
+            "en": {
+              "title": "Documentation",
+              "text": "Documentation plays a key role in tech. We never know who will take our place—or if anyone will. I want to continue creating guides and documentation for internal EST processes and for WebMasters, including tutorials on editing websites and configuring Google Workspace."
+            },
+            "es": {
+              "title": "Documentación",
+              "text": "La documentación juega un papel muy importante en el mundo de la informática. No sabemos quién estará en nuestra posición el día de mañana, o si habrá alguien. Por eso, quiero seguir produciendo guías y documentos tanto a nivel interno (acciones desde el EST), como a nivel de WebMasters (modificación de webs y configuración del Google Workspace)."
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
