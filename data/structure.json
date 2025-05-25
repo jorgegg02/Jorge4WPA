@@ -63,10 +63,8 @@
             "id": "showcase",
             "faIcon": "fa-solid fa-images",
             "locales": {
-                "en": {"title": "Showcase"},
-                "es": {"title": "Vitrina"},
-                "fr": {"title": "Vitrine"},
-                "ko": {"title": "쇼케이스"}
+                "en": {"title": "Ideas"},
+                "es": {"title": "Ideas"},
             }
         },
 
@@ -74,10 +72,8 @@
             "id": "more",
             "faIcon": "fa-solid fa-plus",
             "locales": {
-                "en": {"title": "More"},
-                "es": {"title": "Más"},
-                "fr": {"title": "Plus"},
-                "ko": {"title": "더보기"}
+                "en": {"title": "Contact"},
+                "es": {"title": "Contacto"},
             }
         }
     ]
