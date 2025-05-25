@@ -8,7 +8,7 @@
 
         "es": {
             "title": "Libro de ideas",
-            "title_long_prefix": "Explora",
+            "title_long_prefix": "Os presento mi",
             "title_long": "Libro de **Ideas**"
         }
     },
@@ -67,7 +67,7 @@
                         },
                         "es": {
                             "title": "Aumentar número de MyC ",
-                            "text": "Quiero aumentar el número de MyC de forma que haya como mínimo **1 cada 2 meses**. Dentro de estos a su vez, quiero introducir nuevos formatos que dinamicen la comunidad como que l@s Webmasters sean protagonistas o hacer MyC conjuntos con otras comunidades con sinergias potenciales."
+                            "text": "Quiero aumentar el número de MyC de forma que haya como mínimo **1 cada 2 meses**. Dentro de estos a su vez, quiero introducir nuevos formatos que dinamicen la comunidad como que Webmasters sean protagonistas, donde presenten proyectos suyos propios y se compartan buenas prácticas o hacer MyC conjuntos con otras comunidades con sinergias potenciales."
                         }
                     }
                 },
@@ -75,8 +75,8 @@
                 {
                     "categoryId": "Training",
                     "icon": {
-                        "img": "images/pictures/project-logo-7.png",
-                        "fa": "",
+                        "img": "",
+                        "fa": "fa-solid fa-graduation-cap",
                         "faColors": {"bg": null, "fill": null}
                     },
 
@@ -92,7 +92,7 @@
                             "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>."
                         },
                         "es": {
-                            "title": "Formaciones internas",
+                            "title": "Formación: EST",
                             "text": "Para muchas personas del EST las herramientas que con las que se trabajan son conocidas solo de oídas hasta que se llega al equipo. Es por eso que quiero apostar fuertemente por formación interna del equipo ya sea por nuestra cuenta o incluso buscando formación externa. Con esto, no solo se conseguiría integrantes más capaces, sino que holísticamente el equipo sería más eficaz en su conjunto.  "                        }
                     }
                 },
@@ -100,8 +100,8 @@
                 {
                     "categoryId": "Training",
                     "icon": {
-                        "img": "images/pictures/project-logo-6.png",
-                        "fa": "",
+                        "img": "",
+                        "fa": "fa-solid fa-brain",
                         "faColors": {"bg": null, "fill": null}
                     },
 
@@ -114,13 +114,11 @@
                     "locales": {
                         "en": {
                             "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
+                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features."
                         },
                         "es": {
-                            "title": "Formación externa: WebMasters",
-                            "text": "La comunidad de WebMasters está abierta a todo el mundo, no hace falta ser un experto. Muchas veces creo que la imagen de este cargo ahuyenta a personas que podrían desempeñarlo perfectamente. Por ese motivo me gustaría dar formaciones abiertas sobre diferentes tareas que se llevan a cabo como WebMaster. Esto es aún más importante al tomar en cuenta el cambio de plantilla a Satellite 5, donde algunos procesos sobre la modificación de la web serán distintos.",
-                            "tags": ["React", "Organización", "Notas"]
+                            "title": "Formación: WebMasters",
+                            "text": "La comunidad de WebMasters está abierta a todo el mundo, no hace falta ser un experto. Muchas veces creo que la imagen de este cargo ahuyenta a personas que podrían desempeñarlo perfectamente. Por ese motivo me gustaría dar formaciones abiertas sobre diferentes tareas que se llevan a cabo como WebMaster. Esto es aún más importante al tomar en cuenta el cambio de plantilla a Satellite 5, donde algunos procesos sobre la modificación de la web serán distintos."
                         }
                     }
                 },
@@ -128,7 +126,7 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-1.png",
+                        "img": "images/pictures/satellite5.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -153,8 +151,8 @@
                 {
                     "categoryId": "Training",
                     "icon": {
-                        "img": "images/pictures/project-logo-2.png",
-                        "fa": "",
+                        "img": null,
+                        "fa": "fa-solid fa-school-flag",
                         "faColors": {"bg": null, "fill": null}
                     },
 
@@ -169,7 +167,7 @@
                             "title": "Snappy",
                             "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements."                        },
                         "es": {
-                            "title": "Formaciones: abiertas a todo el mundo",
+                            "title": "Formación: Personas voluntarias de la federación",
                             "text": "Al igual que desde el EdIS se forma en espacios seguros o desde el DC se dan formaciones sobre campañas abiertas a todo el mundo, creo que desde el EST podríamos formar a toda la federación en campos habitualmente ligados a nuestro ámbito como herramientas digitales o IA. Me gustaría además que ambas caras de la moneda fueran abiertas, es decir, desde el EST ofreceríamos nuestro altavoz y ayuda, si fuera necesaria, a cualquier persona que quisiera impartir estos tipos de formaciones, ya que soy consciente que para saber usar estas herramientas no hace falta ser webmaster ni integrante del EST."                        }
                     }
                 },
@@ -177,17 +175,15 @@
                 {
                     "categoryId": "websites",
                     "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-globe",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
                     },
 
                     "links": [
                     ],
 
                     "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
                     },
 
                     "locales": {
@@ -206,7 +202,7 @@
                     "categoryId": "websites",
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-guitar",
+                        "fa": "fa-solid fa-mobile",
                         "faColors": {"bg": "#111", "fill": "#EEE"}
                     },
 
@@ -219,13 +215,11 @@
                     "locales": {
                         "en": {
                             "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>."
                         },
                         "es": {
-                            "title": "Web ESN España: extras",
-                            "text": "Otro punto importante será el de las demás webs a nivel nacional, como la del secretariado, Ibiza o la wiki. Sé que no serían mi jurisdicción pero quiero matizar que tanto yo como el EST quedaríamos a completa disposición de Junta Nacional, el secretariado y demás equipos para trabajar en las demás webs de ESN España",
-                            "tags": ["Django", "Música", "Rock"]
+                            "title": "Webs ESN España: extras",
+                            "text": "Otro punto importante será el de las demás webs a nivel nacional, como la del secretariado, Ibiza o la wiki. Sé que no serían mi jurisdicción pero quiero matizar que tanto yo como el EST quedaríamos a completa disposición de Junta Nacional, el secretariado y demás equipos para trabajar en ellas."
                         }
                     }
                 },
@@ -233,8 +227,8 @@
                 {
                     "categoryId": "comunity",
                     "icon": {
-                        "img": "images/pictures/project-logo-4.png",
-                        "fa": "",
+                        "img": null,
+                        "fa": "fa-solid fa-puzzle-piece",
                         "faColors": {"bg": null, "fill": null}
                     },
 
@@ -242,11 +236,6 @@
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
                     },
 
                     "locales": {
