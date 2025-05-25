@@ -27,8 +27,8 @@ $sidebar-min-breakpoint: md;
 /** ----------- COLORS ----------- **/
 
 /** COLORS - overriding bootstrap colors **/
-$primary: #36ec65;
-$secondary: #6c757d;
+$primary: #EC008C;
+$secondary: #2E3192;
 $dark: #111;
 $light: #EEE;
 
@@ -55,8 +55,8 @@ $loader-background-color: #111111;
     --theme-soft-2: #252525;
     --theme-soft-3: #292929;
 
-    --theme-highlight: #9dff8e;
-    --theme-highlight-2: #b5ffa9;
+    --theme-highlight: #EC008C;
+    --theme-highlight-2: #EC008C;
     --theme-highlight-3: #d5fdcd;
 
     --theme-dark: #101010;
@@ -75,7 +75,7 @@ $loader-background-color: #111111;
     --theme-nav-background-disabled: #181818;
     --theme-nav-secondary: #EEEEEE;
     --theme-nav-light: #1f2022;
-    --theme-nav-highlight: #9dff8e;
+    --theme-nav-highlight: #EC008C;
     --theme-nav-selected: #232526;
 
     --theme-scrollbar-track: #111111;
@@ -87,45 +87,45 @@ $loader-background-color: #111111;
 
 /** COLORS - light theme palette **/
 [data-theme="light"] {
-    --theme-main: #9adbaf;
+    --theme-main: #2E3192;
     --theme-main-2: #8ec9a1;
     --theme-main-3: #82b791;
     --theme-main-4: #7db08e;
 
-    --theme-secondary: #404b41;
-    --theme-secondary-2: #49564a;
-    --theme-secondary-3: #576758;
-    --theme-secondary-4: #5e6c5e;
+    --theme-secondary: #ffffff;
+    --theme-secondary-2: #2E3192;
+    --theme-secondary-3: #ffffff;
+    --theme-secondary-4: #2E3192;
 
-    --theme-soft: #c3e3cb;
-    --theme-soft-2: #bfdec7;
-    --theme-soft-3: #bad9c2;
+    --theme-soft: #8ad0e9;
+    --theme-soft-2: #b5d4e0;
+    --theme-soft-3: #d8e3e6;
 
     --theme-dark: #daf5e4;
     --theme-dark-opacity: rgba(218, 245, 228, 0.2);
     --theme-muted: #7c8d7f;
     --theme-white: #ffffff;
 
-    --theme-highlight: #269366;
-    --theme-highlight-2: #207956;
-    --theme-highlight-3: #1a6447;
+    --theme-highlight: #2E3192;
+    --theme-highlight-2: #2E3192;
+    --theme-highlight-3: #2E3192;
 
     --theme-bg: url('/images/css/bg-green.png');
-    --theme-bg-color: #9adbaf;
-    --theme-section-background: #caecd5;
+    --theme-bg-color: #00AEEF;
+    --theme-section-background: #00AEEF;
     --theme-section-background-opacity: rgba(202, 236, 213, 0.9);
-    --theme-tag-color: #b1ccbd;
+    --theme-tag-color: #00AEEF;
     --theme-box-shadow: none;
 
-    --theme-nav-background: #caecd5;
-    --theme-nav-background-disabled: #c5e6d0;
-    --theme-nav-secondary: #4f5b50;
+    --theme-nav-background: #00AEEF;
+    --theme-nav-background-disabled: #8ad0e9;
+    --theme-nav-secondary: #252b25;
     --theme-nav-light: rgba(217, 243, 222, 0.5);
-    --theme-nav-highlight: #d7f1e3;
-    --theme-nav-selected: #269366;
+    --theme-nav-highlight: #00AEEF;
+    --theme-nav-selected: #2E3192;
 
-    --theme-scrollbar-track: #c3e4cc;
-    --theme-scrollbar-thumb: #55bd91;
+    --theme-scrollbar-track: #8ad0e9;
+    --theme-scrollbar-thumb: #040404;
     --theme-chart-borders: #e7f6e3;
 
     --theme-danger: #fad6d6;
