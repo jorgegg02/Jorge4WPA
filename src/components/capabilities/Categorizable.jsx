@@ -16,7 +16,7 @@ function Categorizable({ children, items, categories, storageId, onFilter, contr
         },
         ...categories.map(category => ({
             id: category.id,
-            label: getTranslation(category['locales'], "plural"),
+            label: getTranslation(category['locales'], "singular"),
             count: items.filter(item => item['categoryId'] === category.id).length
         }))
     ]

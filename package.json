@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://jorgegg02.github.io/Jorge4WPA",
   "type": "module",
   "scripts": {
     "dev": "vite",
